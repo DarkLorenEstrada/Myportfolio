@@ -1,7 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import React from "react";
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
+import { name } from "../constants";
 
 const Hero = () => {
   return (
@@ -15,11 +16,11 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            HI, I'm <span className="text-[#919eff]">Syket</span>{' '}
+            HI, I'm <span className="text-[#919eff]">{name}</span>{" "}
           </h1>
           <p>
-            I develop 3D visuals, user <br className="sm:block hidden" />{' '}
-            interfaces and web applications
+            I develop 3D visuals, user interfaces and web applications with
+            Blockchain and AI Experience
           </p>
         </div>
       </div>
@@ -36,7 +37,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: 'loop',
+                repeatType: "loop",
               }}
               className="w-3 h-3 rounded-full bg-secondary"
             />

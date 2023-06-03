@@ -1,8 +1,8 @@
 import {
-  mobile,
+  AI,
   backend,
-  creator,
-  web,
+  blockchain,
+  frontend,
   javascript,
   typescript,
   html,
@@ -23,243 +23,407 @@ import {
   jobit,
   tripguide,
   threejs,
-} from '../assets';
+  agile,
+  angular,
+  bootstrap,
+  c,
+  chatGPT,
+  django,
+  flask,
+  graphql,
+  illustrator,
+  java,
+  jest,
+  jira,
+  mui,
+  mysql,
+  vite,
+  nextjs,
+  nuxtjs,
+  photoshop,
+  php,
+  postgres,
+  postman,
+  python,
+  pytorch,
+  ruby,
+  SEO,
+  tensorflow,
+  vuejs,
+  webpack,
+  elasitsearch,
+  duckduckgo,
+  accubits,
+  zuhlke,
+  sass,
+} from "../assets";
+
+export const name = "Mark Garner";
+export const role =
+  "I am 6+ years of full stack experience, 2+ years of blockchain and AI Experience.";
+
+export const overview =
+  "I am a professional software engineer with 7 years of experience as a full stack developer and 1 year of experience as an Artificial Intelligence Engineer. I possess a strong knowledge of various frameworks and programming languages, as well as problem-solving skills that enable me to identify scalability issues and improve overall system processes. ";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'work',
-    title: 'Work',
+    id: "work",
+    title: "Work",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "project",
+    title: "Project",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Web Developer',
-    icon: web,
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
-  },
-  {
-    title: 'Backend Developer',
+    title: "Backend Developer",
     icon: backend,
   },
+  // {
+  //   title: "Blockchain Engineer",
+  //   icon: blockchain,
+  // },
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: "AI Engineer",
+    icon: AI,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    set_name: "Program Language",
+    skill_sets: [
+      {
+        name: "C/C++",
+        icon: c,
+      },
+      {
+        name: "Python",
+        icon: python,
+      },
+      {
+        name: "Java",
+        icon: java,
+      },
+      {
+        name: "TypeScript",
+        icon: typescript,
+      },
+      {
+        name: "JavaScript",
+        icon: javascript,
+      },
+      {
+        name: "HTML",
+        icon: html,
+      },
+      {
+        name: "CSS",
+        icon: css,
+      },
+      {
+        name: "PHP",
+        icon: php,
+      },
+      {
+        name: "Ruby",
+        icon: ruby,
+      },
+    ],
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    set_name: "Client",
+    skill_sets: [
+      {
+        name: "React",
+        icon: reactjs,
+      },
+      {
+        name: "Angular",
+        icon: angular,
+      },
+      {
+        name: "Vue.js",
+        icon: vuejs,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: tailwind,
+      },
+      {
+        name: "Material UI",
+        icon: mui,
+      },
+      {
+        name: "Bootstrap",
+        icon: bootstrap,
+      },
+      {
+        name: "Redux",
+        icon: redux,
+      },
+
+      {
+        name: "Three JS",
+        icon: threejs,
+      },
+      {
+        name: "Next.js",
+        icon: nextjs,
+      },
+      {
+        name: "Nuxt.js",
+        icon: nuxtjs,
+      },
+      {
+        name: "Photoshop",
+        icon: photoshop,
+      },
+      {
+        name: "Illustrator",
+        icon: illustrator,
+      },
+      {
+        name: "GraphQL",
+        icon: graphql,
+      },
+      {
+        name: "Vite",
+        icon: vite,
+      },
+      {
+        name: "sass",
+        icon: sass,
+      },
+    ],
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    set_name: "Server Side & Database",
+    skill_sets: [
+      {
+        name: "Node JS",
+        icon: nodejs,
+      },
+      {
+        name: "Django",
+        icon: django,
+      },
+      {
+        name: "Flask",
+        icon: flask,
+      },
+      {
+        name: "MongoDB",
+        icon: mongodb,
+      },
+      {
+        name: "MySQL",
+        icon: mysql,
+      },
+      {
+        name: "PostgreSQL",
+        icon: postgres,
+      },
+    ],
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
+    set_name: "Operations & Platforms",
+    skill_sets: [
+      {
+        name: "git",
+        icon: git,
+      },
+      {
+        name: "figma",
+        icon: figma,
+      },
+      {
+        name: "docker",
+        icon: docker,
+      },
+      {
+        name: "Agile",
+        icon: agile,
+      },
+      {
+        name: "Jest",
+        icon: jest,
+      },
+      {
+        name: "Webpack",
+        icon: webpack,
+      },
+      {
+        name: "Jira",
+        icon: jira,
+      },
+      {
+        name: "Postman",
+        icon: postman,
+      },
+    ],
   },
   {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
+    set_name: "Artificial Intelligence & Data Management",
+    skill_sets: [
+      {
+        name: "SEO",
+        icon: SEO,
+      },
+      {
+        name: "ElasticSearch",
+        icon: elasitsearch,
+      },
+      {
+        name: "ChatGPT",
+        icon: chatGPT,
+      },
+      {
+        name: "TensorFlow",
+        icon: tensorflow,
+      },
+      {
+        name: "PyTorch",
+        icon: pytorch,
+      },
+    ],
   },
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: "Junior Web Developer",
+    company_name: "Zuhlke",
+    icon: zuhlke,
+    iconBg: "#383E56",
+    date: "February 2016 - October 2017",
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      "Reduced code duplication",
+      "Maintained PHP/CodeIgniter-based legacy code base and rebuilt using MEAN stack.",
+      "Built user Authentication module and social login using JWT token and OAuth",
+      "Translated wireframed designs into responsive pixel-perfect website pages.",
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: "Full Stack Developer",
+    company_name: "Accubits Technologies Inc",
+    icon: accubits,
+    iconBg: "#E6DEDD",
+    date: "Oct 2017 - Mar 2020",
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      "Utilized graphic design software such as Adobe Photoshop and Illustrator ",
+      "Designed and developed responsive web applications using Gatsby.js.",
+      "Wrote the CI/CD script with CircleCI, Docker and deployed application on AWS and Heroku",
+      "Rewrote all class-based components to functional components ",
+      "Implemented SSR (server-side rendering) and SSG (static rendering) on Single Page Applications using Next.js and MUI.",
+      "Structured several internal systems using Node, Express and Apollo.",
+      "Worked on 3 MVPs while working with young startups and individual clients.",
+      "Developed a real-time chat application for specific company usage using Go, gRPC, and React.",
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    title: "Full Stack Developer & AI Engineer",
+    company_name: "DuckDuckGo",
+    icon: duckduckgo,
+    iconBg: "#383E56",
+    date: "Mar 2020 - present",
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      "Collaborated with marketing and sales teams to develop and implement SEO strategies using Next.js.",
+      "Integrated Elasticsearch into the back-end system to enable fast and efficient search functionality.",
+      "Utilized Git for version control and collaborated with team members using Agile methodologies, including daily stand-up meetings, sprint planning, and retrospectives.",
+      "Trained PyTorch and Tensorflow models to enhance NLP functionality and integrated them.",
+      "Develop Online Chatbot with GPT Turbo 3.5 Model on startup company social site.",
+      "Developed responsive, and functional user interfaces in pixelperfectness.",
+      "Built reusable components and responsive pages using Tailwind CSS and Vue.js.",
+      "Covered 95 % of automation testing following TDD.",
+      "Worked directly with the CTO and collaborated actively with the product and UI/UX team.",
+      "Built an MVP using React and Django in 3 months.",
     ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: "Car Rent",
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: "mongodb",
+        color: "green-text-gradient",
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: 'https://github.com/',
+    source_code_link: "https://www.moreton.com/",
   },
   {
-    name: 'Job IT',
+    name: "Job IT",
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "sass",
+        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: 'https://github.com/',
+    source_code_link: "https://jobit.world/",
   },
   {
-    name: 'Trip Guide',
+    name: "Trip Guide",
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: 'https://github.com/',
+    source_code_link: "https://tripguides.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
