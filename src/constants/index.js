@@ -60,6 +60,10 @@ import {
   chakuraUI,
   christmas_decor,
   reduxsaga,
+  mernEcommerce,
+  angularProSidebar,
+  materialKitReact,
+  vuePokemon,
 } from "../assets";
 
 export const name = "Mark Garner";
@@ -471,15 +475,95 @@ const projects = [
     demo_link: "https://nvyrsta.github.io/christmas-decor/",
   },
   {
-    name: "Workout: Sport Clothes Store",
+    name: "MERN Ecommerce",
     specials: [
       {
         title: "e-commerce",
         color: "bg-teal-300",
       },
+      {
+        title: "MERN",
+        color: "bg-red-600",
+      },
     ],
     description:
-      "This is a React application that provides access to a variety of gadgets, including phones, tablets, and other electronic devices.",
+      "An ecommerce store built with MERN stack, and utilizes third party API's. This ecommerce store enable three main different flows or implementations",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "text-emerald-500",
+      },
+      {
+        name: "MongoDB",
+        color: "text-yellow-500",
+      },
+    ],
+    image: mernEcommerce,
+    source_code_link: "https://github.com/DarkMGarner/mern-ecommerce/",
+    demo_link: "https://mern-store.onrender.com/",
+  },
+  {
+    name: "Angular Pro Sidebar",
+    specials: [
+      {
+        title: "template",
+        color: "bg-blue-300",
+      },
+      {
+        title: "Sidebar",
+        color: "bg-neutral-200",
+      },
+    ],
+    description:
+      "Responsive sidebar template with dropdown menu built with angular 7 and bootstrap 4",
+    tags: [
+      {
+        name: "Angular",
+        color: "text-red-700",
+      },
+      {
+        name: "Bootstrap",
+        color: "text-blue-400",
+      },
+      {
+        name: "TypeScript",
+        color: "text-violet-400",
+      },
+      {
+        name: "SaaS",
+        color: "text-fuchsia-400",
+      },
+    ],
+    image: angularProSidebar,
+    source_code_link: "https://github.com/DarkMGarner/angular-pro-sidebar.git",
+    demo_link: "https://azouaoui-med.github.io/angular-pro-sidebar/demo/",
+  },
+  {
+    name: "Material Kit React",
+    specials: [
+      {
+        title: "Kit",
+        color: "bg-gray-300",
+      },
+      {
+        title: "Dashboard",
+        color: "bg-green-300",
+      },
+    ],
+    description:
+      "Free React Admin Dashboard made with MUI's components, React and of course Next.js to boost your app development process!",
     tags: [
       {
         name: "react",
@@ -490,17 +574,84 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "postgresql",
+        name: "firebase",
         color: "pink-text-gradient",
       },
       {
-        name: "Material UI",
-        color: "pink-text-gradient",
+        name: "Next.js",
+        color: "text-emerald-500",
+      },
+      {
+        name: "MUI",
+        color: "text-yellow-500",
       },
     ],
-    image: christmas_decor,
-    source_code_link: "https://github.com/DarkMGarner/christmas-decor/",
-    demo_link: "https://nvyrsta.github.io/christmas-decor/",
+    image: materialKitReact,
+    source_code_link: "https://github.com/DarkMGarner/material-kit-react.git",
+    demo_link: "http://material-kit-react.devias.io/",
+  },
+  {
+    name: "Vue-Pokemon",
+    specials: [
+      {
+        title: "pokeapi",
+        color: "bg-gray-300",
+      },
+    ],
+    description: "Vue, TypeScript and Vuetify example using GraphQL PokeAPI",
+    tags: [
+      {
+        name: "vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "text-emerald-500",
+      },
+    ],
+    image: vuePokemon,
+    source_code_link: "https://github.com/jorgevrgs/vue-pokemon.git",
+    demo_link: "https://vue-pokemon.vercel.app/",
+  },
+  {
+    name: "ChatGPT UI",
+    specials: [
+      {
+        title: "ChatGPT",
+        color: "bg-purple-300",
+      },
+    ],
+    description:
+      "Chatbot UI is an open source chat UI for AI models with ChatGPT.",
+    tags: [
+      {
+        name: "ChatGPT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-saga",
+        color: "green-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "API",
+        color: "text-emerald-500",
+      },
+    ],
+    image: vuePokemon,
+    source_code_link: "https://github.com/DarkMGarner/chatbot-ui.git",
+    demo_link: "https://chatbotui.com",
   },
 ];
 

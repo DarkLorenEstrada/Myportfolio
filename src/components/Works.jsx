@@ -62,11 +62,11 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className="mt-6">
+        <div className="mt-6 ">
           {specials?.map((special, index) => (
             <span
               key={index}
-              className={`relative rounded-3xl text-[14px] my-4 ${special.color} bg-opacity-20 gap-2 p-2`}
+              className={`relative rounded-3xl text-[14px] my-4 ${special.color} bg-opacity-20 gap-2 p-2 mr-2`}
             >
               {special.title}
             </span>

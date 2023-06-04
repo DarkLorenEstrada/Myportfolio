@@ -69,6 +69,10 @@ import carrent from "./project/carrent.png";
 import jobit from "./project/jobit.png";
 import tripguide from "./project/tripguide.png";
 import christmas_decor from "./project/Christmas decor.png";
+import mernEcommerce from "./project/mern-ecommerce.png";
+import angularProSidebar from "./project/angular-pro-sidebar.png";
+import materialKitReact from "./project/Material-Kit-React.png";
+import vuePokemon from "./project/vue-pokemon.png";
 
 export {
   logo,
@@ -139,4 +143,8 @@ export {
   demo,
   christmas_decor,
   reduxsaga,
+  mernEcommerce,
+  angularProSidebar,
+  materialKitReact,
+  vuePokemon,
 };
