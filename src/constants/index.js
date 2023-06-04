@@ -56,6 +56,10 @@ import {
   accubits,
   zuhlke,
   sass,
+  supabase,
+  chakuraUI,
+  christmas_decor,
+  reduxsaga,
 } from "../assets";
 
 export const name = "Mark Garner";
@@ -180,7 +184,10 @@ const technologies = [
         name: "Redux",
         icon: redux,
       },
-
+      {
+        name: "Redux Saga",
+        icon: reduxsaga,
+      },
       {
         name: "Three JS",
         icon: threejs,
@@ -212,6 +219,14 @@ const technologies = [
       {
         name: "sass",
         icon: sass,
+      },
+      {
+        name: "Supabase",
+        icon: supabase,
+      },
+      {
+        name: "Chakura",
+        icon: chakuraUI,
       },
     ],
   },
@@ -380,7 +395,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://www.moreton.com/",
+    // source_code_link: "https://www.moreton.com/",
+    demo_link: "https://www.moreton.com/",
   },
   {
     name: "Job IT",
@@ -401,7 +417,8 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://jobit.world/",
+    // source_code_link: "https://jobit.world/",
+    demo_link: "https://jobit.world/",
   },
   {
     name: "Trip Guide",
@@ -422,7 +439,68 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://tripguides.com/",
+    // source_code_link: "https://tripguides.com/",
+    demo_link: "https://tripguides.com/",
+  },
+  {
+    name: "Christmas decor",
+    specials: [
+      {
+        title: "e-commerce",
+        color: "bg-teal-300",
+      },
+    ],
+    description:
+      "This is an e-commerce website. The selected products are stored in the cart even after the page is reloaded thanks to local storage. There are various sliders written in vanilla js and slink js. ",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: christmas_decor,
+    source_code_link: "https://github.com/AwfulDarkness/christmas-decor/",
+    demo_link: "https://nvyrsta.github.io/christmas-decor/",
+  },
+  {
+    name: "Workout: Sport Clothes Store",
+    specials: [
+      {
+        title: "e-commerce",
+        color: "bg-teal-300",
+      },
+    ],
+    description:
+      "This is a React application that provides access to a variety of gadgets, including phones, tablets, and other electronic devices.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: christmas_decor,
+    source_code_link: "https://github.com/AwfulDarkness/christmas-decor/",
+    demo_link: "https://nvyrsta.github.io/christmas-decor/",
   },
 ];
 

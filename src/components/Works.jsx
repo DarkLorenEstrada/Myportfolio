@@ -2,7 +2,7 @@ import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { demo, github } from "../assets";
 import { SectionsWrapper } from "../HOC";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -14,6 +14,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  demo_link,
+  specials,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -33,13 +35,42 @@ const ProjectCard = ({
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <button
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="bg-violet-700 w-10 h-10 rounded-lg flex justify-center items-center cursor-pointer"
-            >
-              😉
-            </button>
+            {source_code_link && (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="bg-violet-400 bg-opacity-40 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
+            {demo_link && (
+              <div
+                onClick={() => window.open(demo_link, "_blank")}
+                className="bg-violet-400 bg-opacity-40 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={demo}
+                  alt="Demo"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
           </div>
+        </div>
+
+        <div className="mt-6">
+          {specials?.map((special, index) => (
+            <span
+              key={index}
+              className={`relative rounded-3xl text-[14px] my-4 ${special.color} bg-opacity-20 gap-2 p-2`}
+            >
+              {special.title}
+            </span>
+          ))}
         </div>
 
         <div className="mt-5">

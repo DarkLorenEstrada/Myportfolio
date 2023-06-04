@@ -6,6 +6,7 @@ import frontend from "./frontend.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import demo from "./demo.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -52,6 +53,9 @@ import elasitsearch from "./tech/elasticsearch.png";
 import nlp from "./tech/NLP.png";
 import restapi from "./tech/restapi.png";
 import sass from "./tech/sass.png";
+import supabase from "./tech/supabase.png";
+import chakuraUI from "./tech/chakura-ui.png";
+import reduxsaga from "./tech/redux-saga.png";
 
 import meta from "./company/meta.png";
 import duckduckgo from "./company/duckduckgo.png";
@@ -64,6 +68,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./project/carrent.png";
 import jobit from "./project/jobit.png";
 import tripguide from "./project/tripguide.png";
+import christmas_decor from "./project/Christmas decor.png";
 
 export {
   logo,
@@ -129,4 +134,9 @@ export {
   zuhlke,
   accubits,
   sass,
+  supabase,
+  chakuraUI,
+  demo,
+  christmas_decor,
+  reduxsaga,
 };
