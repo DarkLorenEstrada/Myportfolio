@@ -467,7 +467,7 @@ const projects = [
       },
     ],
     image: christmas_decor,
-    source_code_link: "https://github.com/AwfulDarkness/christmas-decor/",
+    source_code_link: "https://github.com/DarkMGarner/christmas-decor/",
     demo_link: "https://nvyrsta.github.io/christmas-decor/",
   },
   {
@@ -499,7 +499,7 @@ const projects = [
       },
     ],
     image: christmas_decor,
-    source_code_link: "https://github.com/AwfulDarkness/christmas-decor/",
+    source_code_link: "https://github.com/DarkMGarner/christmas-decor/",
     demo_link: "https://nvyrsta.github.io/christmas-decor/",
   },
 ];
