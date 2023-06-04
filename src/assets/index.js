@@ -73,6 +73,7 @@ import mernEcommerce from "./project/mern-ecommerce.png";
 import angularProSidebar from "./project/angular-pro-sidebar.png";
 import materialKitReact from "./project/Material-Kit-React.png";
 import vuePokemon from "./project/vue-pokemon.png";
+import chatGPTUI from "./project/chatGPTUI.png";
 
 export {
   logo,
@@ -147,4 +148,5 @@ export {
   angularProSidebar,
   materialKitReact,
   vuePokemon,
+  chatGPTUI,
 };

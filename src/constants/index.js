@@ -64,6 +64,7 @@ import {
   angularProSidebar,
   materialKitReact,
   vuePokemon,
+  chatGPTUI,
 } from "../assets";
 
 export const name = "Mark Garner";
@@ -649,7 +650,7 @@ const projects = [
         color: "text-emerald-500",
       },
     ],
-    image: vuePokemon,
+    image: chatGPTUI,
     source_code_link: "https://github.com/DarkMGarner/chatbot-ui.git",
     demo_link: "https://chatbotui.com",
   },
