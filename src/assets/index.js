@@ -98,7 +98,9 @@ import Bitso from './project/bitso.png';
 import Bitcovia from './project/bitcoiva.png';
 import ExamGenie from './project/ExamGenie.png';
 import Pinpoint from './project/pinpoint.png';
-import Johnfowlerholiday from './project/johnfowlerholidays.png'
+import Johnfowlerholiday from './project/johnfowlerholidays.png';
+
+import University from './university.png';
 
 export {
   logo,
@@ -198,5 +200,6 @@ export {
   Bitcovia,
   ExamGenie,
   Pinpoint,
-  Johnfowlerholiday
+  Johnfowlerholiday,
+  University
 };

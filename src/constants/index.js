@@ -494,4 +494,13 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const educations = [
+  {
+    school: "National University of Singapore",
+    degree: "Bachelor's Degree in Computer Science",
+    from: "September 2014",
+    to: "July 2017"
+  }
+]
+
+export { services, technologies, experiences, projects, educations };

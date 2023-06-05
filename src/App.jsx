@@ -9,6 +9,7 @@ import {
   StarsCanvas,
   Navbar,
 } from "./components";
+import Education from "./components/Education";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Education/>
         <Experience />
         <Tech />
         <Works />
