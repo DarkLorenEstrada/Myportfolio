@@ -65,55 +65,80 @@ import {
   materialKitReact,
   vuePokemon,
   chatGPTUI,
+  Go,
+  Rust,
+  ShellScripting,
+  Vyper,
+  cassandra,
+  IPFS,
+  web3,
+  Hasura,
+  Geth,
+  Hardhat,
+  Truffle,
+  Embark,
+  Ganache,
+  Remix,
+  Celo,
+  Grab,
+  inforive_Solutions,
+  InfoBeans,
+  Paxful,
+  Bitso,
+  Solidity,
+  Bitcovia,
+  ExamGenie,
+  Pinpoint,
+  Johnfowlerholiday
 } from "../assets";
 
-export const name = "Mark Garner";
+export const name = "Loren Estrada";
 export const role =
-  "I am 6+ years of full stack experience, 2+ years of blockchain and AI Experience.";
+  "I am Singapore based Software Engineer and Blokchain Developer.";
 
 export const overview =
-  "I am a professional software engineer with 7 years of experience as a full stack developer and 1 year of experience as an Artificial Intelligence Engineer. I possess a strong knowledge of various frameworks and programming languages, as well as problem-solving skills that enable me to identify scalability issues and improve overall system processes. ";
+  " I am a skilled blockchain developer with expertise in JavaScript, Golang, and Python programming languages. I possess extensive knowledge of building decentralized applications and smart contracts using Truffle, Web3.js, and Solidity.";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About"
   },
   {
     id: "work",
-    title: "Work",
+    title: "Work"
   },
   {
     id: "skills",
-    title: "Skills",
+    title: "Skills"
   },
   {
     id: "project",
-    title: "Project",
+    title: "Project"
   },
   {
     id: "contact",
-    title: "Contact",
-  },
+    title: "Contact"
+  }
 ];
 
 const services = [
   {
     title: "Frontend Developer",
-    icon: frontend,
+    icon: frontend
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: backend
   },
-  // {
-  //   title: "Blockchain Engineer",
-  //   icon: blockchain,
-  // },
   {
-    title: "AI Engineer",
-    icon: AI,
-  },
+    title: "Blockchain Engineer",
+    icon: blockchain
+  }
+  // {
+  //   title: "AI Engineer",
+  //   icon: AI,
+  // },
 ];
 
 const technologies = [
@@ -122,537 +147,350 @@ const technologies = [
     skill_sets: [
       {
         name: "C/C++",
-        icon: c,
+        icon: c
       },
       {
         name: "Python",
-        icon: python,
+        icon: python
       },
       {
         name: "Java",
-        icon: java,
+        icon: java
       },
       {
         name: "TypeScript",
-        icon: typescript,
+        icon: typescript
       },
       {
         name: "JavaScript",
-        icon: javascript,
-      },
-      {
-        name: "HTML",
-        icon: html,
-      },
-      {
-        name: "CSS",
-        icon: css,
+        icon: javascript
       },
       {
         name: "PHP",
-        icon: php,
+        icon: php
       },
       {
         name: "Ruby",
-        icon: ruby,
+        icon: ruby
       },
-    ],
+      {
+        name: "Go",
+        icon: Go
+      },
+      {
+        name: "Rust",
+        icon: Rust
+      },
+      {
+        name: "Shell Scripting",
+        icon: ShellScripting
+      },
+      {
+        name: "Vyper",
+        icon: Vyper
+      },
+      {
+        name:"Solidity",
+        icon:Solidity
+      }
+    ]
   },
   {
-    set_name: "Client",
+    set_name: "Databases",
     skill_sets: [
-      {
-        name: "React",
-        icon: reactjs,
-      },
-      {
-        name: "Angular",
-        icon: angular,
-      },
-      {
-        name: "Vue.js",
-        icon: vuejs,
-      },
-      {
-        name: "Tailwind CSS",
-        icon: tailwind,
-      },
-      {
-        name: "Material UI",
-        icon: mui,
-      },
-      {
-        name: "Bootstrap",
-        icon: bootstrap,
-      },
-      {
-        name: "Redux",
-        icon: redux,
-      },
-      {
-        name: "Redux Saga",
-        icon: reduxsaga,
-      },
-      {
-        name: "Three JS",
-        icon: threejs,
-      },
-      {
-        name: "Next.js",
-        icon: nextjs,
-      },
-      {
-        name: "Nuxt.js",
-        icon: nuxtjs,
-      },
-      {
-        name: "Photoshop",
-        icon: photoshop,
-      },
-      {
-        name: "Illustrator",
-        icon: illustrator,
-      },
-      {
-        name: "GraphQL",
-        icon: graphql,
-      },
-      {
-        name: "Vite",
-        icon: vite,
-      },
-      {
-        name: "sass",
-        icon: sass,
-      },
-      {
-        name: "Supabase",
-        icon: supabase,
-      },
-      {
-        name: "Chakura",
-        icon: chakuraUI,
-      },
-    ],
-  },
-  {
-    set_name: "Server Side & Database",
-    skill_sets: [
-      {
-        name: "Node JS",
-        icon: nodejs,
-      },
-      {
-        name: "Django",
-        icon: django,
-      },
-      {
-        name: "Flask",
-        icon: flask,
-      },
-      {
-        name: "MongoDB",
-        icon: mongodb,
-      },
       {
         name: "MySQL",
-        icon: mysql,
+        icon: mysql
       },
       {
         name: "PostgreSQL",
-        icon: postgres,
+        icon: postgres
       },
-    ],
+      {
+        name: "MongoDB",
+        icon: mongodb
+      },
+      {
+        name: "Cassandra",
+        icon: cassandra
+      },
+      {
+        name: "GraphQL",
+        icon: graphql
+      },
+      {
+        name: "IPFS",
+        icon: IPFS
+      }
+    ]
   },
   {
-    set_name: "Operations & Platforms",
+    set_name: "Libraries & APIs",
     skill_sets: [
       {
-        name: "git",
-        icon: git,
+        name: "Node.js",
+        icon: nodejs
       },
       {
-        name: "figma",
-        icon: figma,
+        name: "React.js",
+        icon: reactjs
       },
       {
-        name: "docker",
-        icon: docker,
+        name: "Web3.js",
+        icon: web3
       },
       {
-        name: "Agile",
-        icon: agile,
-      },
-      {
-        name: "Jest",
-        icon: jest,
-      },
-      {
-        name: "Webpack",
-        icon: webpack,
-      },
-      {
-        name: "Jira",
-        icon: jira,
-      },
-      {
-        name: "Postman",
-        icon: postman,
-      },
-    ],
+        name: "Hasura",
+        icon: Hasura
+      }
+    ]
   },
   {
-    set_name: "Artificial Intelligence & Data Management",
+    set_name: "Frameworks",
     skill_sets: [
       {
-        name: "SEO",
-        icon: SEO,
+        name: "Angular.js",
+        icon: angular
       },
       {
-        name: "ElasticSearch",
-        icon: elasitsearch,
+        name: "Vue.js",
+        icon: vuejs
       },
       {
-        name: "ChatGPT",
-        icon: chatGPT,
+        name: "Geth",
+        icon: Geth
       },
       {
-        name: "TensorFlow",
-        icon: tensorflow,
+        name: "Hardhat",
+        icon: Hardhat
       },
       {
-        name: "PyTorch",
-        icon: pytorch,
+        name: "Truffle Framework",
+        icon: Truffle
       },
-    ],
+      {
+        name: "Embark",
+        icon: Embark
+      }
+    ]
   },
+  {
+    set_name: "Blockchain Development Tools",
+    skill_sets: [
+      {
+        name: "Ganache",
+        icon: Ganache
+      },
+      {
+        name: "Remix IDE",
+        icon: Remix
+      },
+      {
+        name: "Celo",
+        icon: Celo
+      }
+    ]
+  }
 ];
 
 const experiences = [
   {
-    title: "Junior Web Developer",
-    company_name: "Zuhlke",
-    icon: zuhlke,
+    title: "Intern",
+    company_name: "Grab",
+    icon: Grab,
     iconBg: "#383E56",
-    date: "February 2016 - October 2017",
+    date: "June 2017 - September 2017",
     points: [
-      "Reduced code duplication",
-      "Maintained PHP/CodeIgniter-based legacy code base and rebuilt using MEAN stack.",
-      "Built user Authentication module and social login using JWT token and OAuth",
-      "Translated wireframed designs into responsive pixel-perfect website pages.",
-    ],
+      "Demonstrated proficiency in the implementation of Agile methodologies",
+      "Developed complex web applications with dynamic user interfaces using React and Redux.",
+      "Translated complex Figma designs into pixel-perfect web interfaces using Tailwind CSS"
+    ]
   },
   {
     title: "Full Stack Developer",
-    company_name: "Accubits Technologies Inc",
-    icon: accubits,
-    iconBg: "#E6DEDD",
-    date: "Oct 2017 - Mar 2020",
+    company_name: "Grab",
+    icon: Grab,
+    iconBg: "#383E56",
+    date: "October 2017 - February 2019",
     points: [
-      "Utilized graphic design software such as Adobe Photoshop and Illustrator ",
-      "Designed and developed responsive web applications using Gatsby.js.",
-      "Wrote the CI/CD script with CircleCI, Docker and deployed application on AWS and Heroku",
-      "Rewrote all class-based components to functional components ",
-      "Implemented SSR (server-side rendering) and SSG (static rendering) on Single Page Applications using Next.js and MUI.",
-      "Structured several internal systems using Node, Express and Apollo.",
-      "Worked on 3 MVPs while working with young startups and individual clients.",
-      "Developed a real-time chat application for specific company usage using Go, gRPC, and React.",
-    ],
+      "Created a custom blockchain network using Hyperledger Fabric and Chaincode.",
+      "Engineered a client-side reporting application utilizing front-end technologies.",
+      "Developed loan simulation software that utilized advnanced algorithms and data analysis techniques.",
+      "Implemented an optimized server issue diagnostic process."
+    ]
   },
   {
-    title: "Full Stack Developer & AI Engineer",
-    company_name: "DuckDuckGo",
-    icon: duckduckgo,
-    iconBg: "#383E56",
-    date: "Mar 2020 - present",
+    title: "Blockchain Developer",
+    company_name: "Inforive Solutions",
+    icon: inforive_Solutions,
+    iconBg: "#E6DEDD",
+    date: "March 2019 - March 2022",
     points: [
-      "Collaborated with marketing and sales teams to develop and implement SEO strategies using Next.js.",
-      "Integrated Elasticsearch into the back-end system to enable fast and efficient search functionality.",
-      "Utilized Git for version control and collaborated with team members using Agile methodologies, including daily stand-up meetings, sprint planning, and retrospectives.",
-      "Trained PyTorch and Tensorflow models to enhance NLP functionality and integrated them.",
-      "Develop Online Chatbot with GPT Turbo 3.5 Model on startup company social site.",
-      "Developed responsive, and functional user interfaces in pixelperfectness.",
-      "Built reusable components and responsive pages using Tailwind CSS and Vue.js.",
-      "Covered 95 % of automation testing following TDD.",
-      "Worked directly with the CTO and collaborated actively with the product and UI/UX team.",
-      "Built an MVP using React and Django in 3 months.",
-    ],
+      "Achived an 85% reduction in gas consumption for token transfers by implementing anencoding mechanism.",
+      "Constructed a secure private blockchain utilizing Hyperledger Fabric 1.0.",
+      "Built Ethereum-based smart contracts to automate various business processes.",
+      "Architected a blockchain-based licensing system aimed at deterring software piracy by enabling decentralized peer-to-peer exchanges, facilitating over 8.6k developers to accept cryptocurrency payments."
+    ]
   },
+  {
+    title: "Blockchain Engineer",
+    company_name: "InfoBeans",
+    icon: InfoBeans,
+    iconBg: "#E6DEDD",
+    date: "April 2022 - April 2023",
+    points: [
+      "Established a permissioned blockchain network employing the latest consensus mechanism.",
+      "Implemented optimized consensus algorithms and data structures.",
+      "Creatd and deployed smart contracts aimed at testing and validating emerging blockchain features."
+    ]
+  }
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PAXFUL",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Paxful.com is a peer-to-peer (P2P) cryptocurrency marketplace that allows users to buy and sell bitcoin with each other using over 300 different payment methods.",
+    specials: [
+      {
+        title: "Smart Contract",
+        color: "bg-lime-600"
+      }
+    ],
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "green-text-gradient"
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    // source_code_link: "https://www.moreton.com/",
-    demo_link: "https://www.moreton.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "sass",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    // source_code_link: "https://jobit.world/",
-    demo_link: "https://jobit.world/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    // source_code_link: "https://tripguides.com/",
-    demo_link: "https://tripguides.com/",
-  },
-  {
-    name: "Christmas decor",
-    specials: [
-      {
-        title: "e-commerce",
-        color: "bg-teal-300",
-      },
-    ],
-    description:
-      "This is an e-commerce website. The selected products are stored in the cart even after the page is reloaded thanks to local storage. There are various sliders written in vanilla js and slink js. ",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: christmas_decor,
-    source_code_link: "https://github.com/DarkMGarner/christmas-decor/",
-    demo_link: "https://nvyrsta.github.io/christmas-decor/",
-  },
-  {
-    name: "MERN Ecommerce",
-    specials: [
-      {
-        title: "e-commerce",
-        color: "bg-teal-300",
-      },
-      {
-        title: "MERN",
-        color: "bg-red-600",
-      },
-    ],
-    description:
-      "An ecommerce store built with MERN stack, and utilizes third party API's. This ecommerce store enable three main different flows or implementations",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express.JS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "text-emerald-500",
-      },
-      {
-        name: "MongoDB",
-        color: "text-yellow-500",
-      },
-    ],
-    image: mernEcommerce,
-    source_code_link: "https://github.com/DarkMGarner/mern-ecommerce/",
-    demo_link: "https://mern-store.onrender.com/",
-  },
-  {
-    name: "Angular Pro Sidebar",
-    specials: [
-      {
-        title: "template",
-        color: "bg-blue-300",
-      },
-      {
-        title: "Sidebar",
-        color: "bg-neutral-200",
-      },
-    ],
-    description:
-      "Responsive sidebar template with dropdown menu built with angular 7 and bootstrap 4",
-    tags: [
-      {
-        name: "Angular",
-        color: "text-red-700",
+        name: "Webpack",
+        color: "pink-text-gradient"
       },
       {
         name: "Bootstrap",
-        color: "text-blue-400",
-      },
-      {
-        name: "TypeScript",
-        color: "text-violet-400",
-      },
-      {
-        name: "SaaS",
-        color: "text-fuchsia-400",
-      },
+        color: "text-red-500"
+      }
     ],
-    image: angularProSidebar,
-    source_code_link: "https://github.com/DarkMGarner/angular-pro-sidebar.git",
-    demo_link: "https://azouaoui-med.github.io/angular-pro-sidebar/demo/",
+    image: Paxful,
+    // source_code_link: "https://www.moreton.com/",
+    demo_link: "https://paxful.com/"
   },
   {
-    name: "Material Kit React",
+    name: "Bitso",
+    description:
+      "The platform provides users with access to a range of tools and resources, including real-time market data, advanced charting tools, and an API for developers. ",
     specials: [
       {
-        title: "Kit",
-        color: "bg-gray-300",
+        title: "Cryptocurrencies",
+        color: "bg-cyan-600"
+      }
+    ],
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient"
       },
       {
-        title: "Dashboard",
-        color: "bg-green-300",
+        name: "react",
+        color: "green-text-gradient"
       },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient"
+      },
+      {
+        name: "Solidity",
+        color: "text-purple-600"
+      }
     ],
+    image: Bitso,
+    // source_code_link: "https://www.moreton.com/",
+    demo_link: "https://bitso.com/"
+  },
+  {
+    name: "Bitcoiva",
     description:
-      "Free React Admin Dashboard made with MUI's components, React and of course Next.js to boost your app development process!",
+      "Bitcoiva is the Next-generation crypto trading platform that supports various forms of transactions and direct purchase options. Instant, fast and easy transactions are possible with Bitcoiva. ",
+    specials: [
+      {
+        title: "BITCOVIA",
+        color: "bg-violet-600"
+      }
+    ],
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "green-text-gradient"
       },
       {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "text-emerald-500",
-      },
-      {
-        name: "MUI",
-        color: "text-yellow-500",
+        name: "Getch",
+        color: "text-indigo-400"
       },
     ],
-    image: materialKitReact,
-    source_code_link: "https://github.com/DarkMGarner/material-kit-react.git",
-    demo_link: "http://material-kit-react.devias.io/",
+    image: Bitcovia,
+    // source_code_link: "https://www.moreton.com/",
+    demo_link: "https://bitcoiva.com/"
   },
   {
-    name: "Vue-Pokemon",
-    specials: [
-      {
-        title: "pokeapi",
-        color: "bg-gray-300",
-      },
-    ],
-    description: "Vue, TypeScript and Vuetify example using GraphQL PokeAPI",
-    tags: [
-      {
-        name: "vue",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vite",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "GraphQL",
-        color: "text-emerald-500",
-      },
-    ],
-    image: vuePokemon,
-    source_code_link: "https://github.com/jorgevrgs/vue-pokemon.git",
-    demo_link: "https://vue-pokemon.vercel.app/",
-  },
-  {
-    name: "ChatGPT UI",
-    specials: [
-      {
-        title: "ChatGPT",
-        color: "bg-purple-300",
-      },
-    ],
+    name: "ExamGenie",
     description:
-      "Chatbot UI is an open source chat UI for AI models with ChatGPT.",
+      "Unique Computer Based Testing Tool with automatic scoring and performance breakdown",
+    
     tags: [
       {
-        name: "ChatGPT",
-        color: "blue-text-gradient",
+        name: "Angular",
+        color: "text-red-600"
       },
       {
-        name: "redux-saga",
-        color: "green-text-gradient",
+        name: "TypeScript",
+        color: "text-indigo-400"
       },
       {
-        name: "supabase",
-        color: "pink-text-gradient",
+        name:"Bootstrap",
+        color: "text-blue-600"
+      }
+    ],
+    image: ExamGenie,
+    // source_code_link: "https://www.moreton.com/",
+    demo_link: "https://examgenie.com/"
+  },
+  {
+    name: "Pinpoint",
+    description:
+      "Email Marketing solutions for the Window Covering Industry for Famility holiday canvas in UK.",
+    
+    tags: [
+      {
+        name: "PHP",
+        color: "text-violet-500"
       },
       {
-        name: "API",
-        color: "text-emerald-500",
+        name: "Laravel",
+        color: "text-blue-400"
       },
     ],
-    image: chatGPTUI,
-    source_code_link: "https://github.com/DarkMGarner/chatbot-ui.git",
-    demo_link: "https://chatbotui.com",
+    image: Pinpoint,
+    // source_code_link: "https://www.moreton.com/",
+    demo_link: "https://pinpoint.com/"
+  },
+  {
+    name: "John Fowler",
+    description:
+      "Website for UK-based holiday park operator with over 60 years of experience in providing family-friendly holidays.",
+    
+    tags: [
+      {
+        name: "React",
+        color: "text-blue-500"
+      },
+      {
+        name: "Vue.js",
+        color: "text-green-400"
+      },
+    ],
+    image: Johnfowlerholiday,
+    // source_code_link: "https://www.moreton.com/",
+    demo_link: "https://www.johnfowlerholidays.com/"
   },
 ];
 
