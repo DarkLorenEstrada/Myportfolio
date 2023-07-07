@@ -89,7 +89,7 @@ import {
   Bitcovia,
   ExamGenie,
   Pinpoint,
-  Johnfowlerholiday
+  Johnfowlerholiday,
 } from "../assets";
 
 export const name = "Loren Estrada";
@@ -102,39 +102,39 @@ export const overview =
 export const navLinks = [
   {
     id: "about",
-    title: "About"
+    title: "About",
   },
   {
     id: "work",
-    title: "Work"
+    title: "Work",
   },
   {
     id: "skills",
-    title: "Skills"
+    title: "Skills",
   },
   {
     id: "project",
-    title: "Project"
+    title: "Project",
   },
   {
     id: "contact",
-    title: "Contact"
-  }
+    title: "Contact",
+  },
 ];
 
 const services = [
   {
     title: "Frontend Developer",
-    icon: frontend
+    icon: frontend,
   },
   {
     title: "Backend Developer",
-    icon: backend
+    icon: backend,
   },
   {
     title: "Blockchain Engineer",
-    icon: blockchain
-  }
+    icon: blockchain,
+  },
   // {
   //   title: "AI Engineer",
   //   icon: AI,
@@ -147,168 +147,168 @@ const technologies = [
     skill_sets: [
       {
         name: "C/C++",
-        icon: c
+        icon: c,
       },
       {
         name: "Python",
-        icon: python
+        icon: python,
       },
       {
         name: "Java",
-        icon: java
+        icon: java,
       },
       {
         name: "TypeScript",
-        icon: typescript
+        icon: typescript,
       },
       {
         name: "JavaScript",
-        icon: javascript
+        icon: javascript,
       },
       {
         name: "PHP",
-        icon: php
+        icon: php,
       },
       {
         name: "Ruby",
-        icon: ruby
+        icon: ruby,
       },
       {
         name: "Go",
-        icon: Go
+        icon: Go,
       },
       {
         name: "Rust",
-        icon: Rust
+        icon: Rust,
       },
       {
         name: "Shell Scripting",
-        icon: ShellScripting
+        icon: ShellScripting,
       },
       {
         name: "Vyper",
-        icon: Vyper
+        icon: Vyper,
       },
       {
-        name:"Solidity",
-        icon:Solidity
-      }
-    ]
+        name: "Solidity",
+        icon: Solidity,
+      },
+    ],
   },
   {
     set_name: "Databases",
     skill_sets: [
       {
         name: "MySQL",
-        icon: mysql
+        icon: mysql,
       },
       {
         name: "PostgreSQL",
-        icon: postgres
+        icon: postgres,
       },
       {
         name: "MongoDB",
-        icon: mongodb
+        icon: mongodb,
       },
       {
         name: "Cassandra",
-        icon: cassandra
+        icon: cassandra,
       },
       {
         name: "GraphQL",
-        icon: graphql
+        icon: graphql,
       },
       {
         name: "IPFS",
-        icon: IPFS
-      }
-    ]
+        icon: IPFS,
+      },
+    ],
   },
   {
     set_name: "Libraries & APIs",
     skill_sets: [
       {
         name: "Node.js",
-        icon: nodejs
+        icon: nodejs,
       },
       {
         name: "React.js",
-        icon: reactjs
+        icon: reactjs,
       },
       {
         name: "Web3.js",
-        icon: web3
+        icon: web3,
       },
       {
         name: "Hasura",
-        icon: Hasura
-      }
-    ]
+        icon: Hasura,
+      },
+    ],
   },
   {
     set_name: "Frameworks",
     skill_sets: [
       {
         name: "Angular.js",
-        icon: angular
+        icon: angular,
       },
       {
         name: "Vue.js",
-        icon: vuejs
+        icon: vuejs,
       },
       {
         name: "Geth",
-        icon: Geth
+        icon: Geth,
       },
       {
         name: "Hardhat",
-        icon: Hardhat
+        icon: Hardhat,
       },
       {
         name: "Truffle Framework",
-        icon: Truffle
+        icon: Truffle,
       },
       {
         name: "Embark",
-        icon: Embark
-      }
-    ]
+        icon: Embark,
+      },
+    ],
   },
   {
     set_name: "Blockchain Development Tools",
     skill_sets: [
       {
         name: "Ganache",
-        icon: Ganache
+        icon: Ganache,
       },
       {
         name: "Remix IDE",
-        icon: Remix
+        icon: Remix,
       },
       {
         name: "Celo",
-        icon: Celo
-      }
-    ]
-  }
+        icon: Celo,
+      },
+    ],
+  },
 ];
 
 const experiences = [
   {
     title: "Intern",
-    company_name: "Grab",
+    company_name: "Imagemaker",
     icon: Grab,
     iconBg: "#383E56",
     date: "June 2017 - September 2017",
     points: [
       "Demonstrated proficiency in the implementation of Agile methodologies",
       "Developed complex web applications with dynamic user interfaces using React and Redux.",
-      "Translated complex Figma designs into pixel-perfect web interfaces using Tailwind CSS"
-    ]
+      "Translated complex Figma designs into pixel-perfect web interfaces using Tailwind CSS",
+    ],
   },
   {
     title: "Full Stack Developer",
-    company_name: "Grab",
+    company_name: "Imagemaker",
     icon: Grab,
     iconBg: "#383E56",
     date: "October 2017 - February 2019",
@@ -316,12 +316,12 @@ const experiences = [
       "Created a custom blockchain network using Hyperledger Fabric and Chaincode.",
       "Engineered a client-side reporting application utilizing front-end technologies.",
       "Developed loan simulation software that utilized advnanced algorithms and data analysis techniques.",
-      "Implemented an optimized server issue diagnostic process."
-    ]
+      "Implemented an optimized server issue diagnostic process.",
+    ],
   },
   {
     title: "Blockchain Developer",
-    company_name: "Inforive Solutions",
+    company_name: "whiz IT global services",
     icon: inforive_Solutions,
     iconBg: "#E6DEDD",
     date: "March 2019 - March 2022",
@@ -329,8 +329,8 @@ const experiences = [
       "Achived an 85% reduction in gas consumption for token transfers by implementing anencoding mechanism.",
       "Constructed a secure private blockchain utilizing Hyperledger Fabric 1.0.",
       "Built Ethereum-based smart contracts to automate various business processes.",
-      "Architected a blockchain-based licensing system aimed at deterring software piracy by enabling decentralized peer-to-peer exchanges, facilitating over 8.6k developers to accept cryptocurrency payments."
-    ]
+      "Architected a blockchain-based licensing system aimed at deterring software piracy by enabling decentralized peer-to-peer exchanges, facilitating over 8.6k developers to accept cryptocurrency payments.",
+    ],
   },
   {
     title: "Blockchain Engineer",
@@ -341,9 +341,9 @@ const experiences = [
     points: [
       "Established a permissioned blockchain network employing the latest consensus mechanism.",
       "Implemented optimized consensus algorithms and data structures.",
-      "Creatd and deployed smart contracts aimed at testing and validating emerging blockchain features."
-    ]
-  }
+      "Creatd and deployed smart contracts aimed at testing and validating emerging blockchain features.",
+    ],
+  },
 ];
 
 const projects = [
@@ -354,26 +354,26 @@ const projects = [
     specials: [
       {
         title: "Smart Contract",
-        color: "bg-lime-600"
-      }
+        color: "bg-lime-600",
+      },
     ],
     tags: [
       {
         name: "react",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "Webpack",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "Bootstrap",
-        color: "text-red-500"
-      }
+        color: "text-red-500",
+      },
     ],
     image: Paxful,
     // source_code_link: "https://www.moreton.com/",
-    demo_link: "https://paxful.com/"
+    demo_link: "https://paxful.com/",
   },
   {
     name: "Bitso",
@@ -382,30 +382,30 @@ const projects = [
     specials: [
       {
         title: "Cryptocurrencies",
-        color: "bg-cyan-600"
-      }
+        color: "bg-cyan-600",
+      },
     ],
     tags: [
       {
         name: "Next.js",
-        color: "blue-text-gradient"
+        color: "blue-text-gradient",
       },
       {
         name: "react",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "Node.js",
-        color: "pink-text-gradient"
+        color: "pink-text-gradient",
       },
       {
         name: "Solidity",
-        color: "text-purple-600"
-      }
+        color: "text-purple-600",
+      },
     ],
     image: Bitso,
     // source_code_link: "https://www.moreton.com/",
-    demo_link: "https://bitso.com/"
+    demo_link: "https://bitso.com/",
   },
   {
     name: "Bitcoiva",
@@ -414,93 +414,93 @@ const projects = [
     specials: [
       {
         title: "BITCOVIA",
-        color: "bg-violet-600"
-      }
+        color: "bg-violet-600",
+      },
     ],
     tags: [
       {
         name: "react",
-        color: "green-text-gradient"
+        color: "green-text-gradient",
       },
       {
         name: "Getch",
-        color: "text-indigo-400"
+        color: "text-indigo-400",
       },
     ],
     image: Bitcovia,
     // source_code_link: "https://www.moreton.com/",
-    demo_link: "https://bitcoiva.com/"
+    demo_link: "https://bitcoiva.com/",
   },
   {
     name: "ExamGenie",
     description:
       "Unique Computer Based Testing Tool with automatic scoring and performance breakdown",
-    
+
     tags: [
       {
         name: "Angular",
-        color: "text-red-600"
+        color: "text-red-600",
       },
       {
         name: "TypeScript",
-        color: "text-indigo-400"
+        color: "text-indigo-400",
       },
       {
-        name:"Bootstrap",
-        color: "text-blue-600"
-      }
+        name: "Bootstrap",
+        color: "text-blue-600",
+      },
     ],
     image: ExamGenie,
     // source_code_link: "https://www.moreton.com/",
-    demo_link: "https://examgenie.com/"
+    demo_link: "https://examgenie.com/",
   },
   {
     name: "Pinpoint",
     description:
       "Email Marketing solutions for the Window Covering Industry for Famility holiday canvas in UK.",
-    
+
     tags: [
       {
         name: "PHP",
-        color: "text-violet-500"
+        color: "text-violet-500",
       },
       {
         name: "Laravel",
-        color: "text-blue-400"
+        color: "text-blue-400",
       },
     ],
     image: Pinpoint,
     // source_code_link: "https://www.moreton.com/",
-    demo_link: "https://pinpoint.com/"
+    demo_link: "https://pinpoint.com/",
   },
   {
     name: "John Fowler",
     description:
       "Website for UK-based holiday park operator with over 60 years of experience in providing family-friendly holidays.",
-    
+
     tags: [
       {
         name: "React",
-        color: "text-blue-500"
+        color: "text-blue-500",
       },
       {
         name: "Vue.js",
-        color: "text-green-400"
+        color: "text-green-400",
       },
     ],
     image: Johnfowlerholiday,
     // source_code_link: "https://www.moreton.com/",
-    demo_link: "https://www.johnfowlerholidays.com/"
+    demo_link: "https://www.johnfowlerholidays.com/",
   },
 ];
 
 const educations = [
   {
-    school: "National University of Singapore",
+    school: "Nebrija University",
     degree: "Bachelor's Degree in Computer Science",
     from: "September 2014",
-    to: "July 2017"
-  }
-]
+    to: "July 2017",
+  },
+];
 
 export { services, technologies, experiences, projects, educations };
